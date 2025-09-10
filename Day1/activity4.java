@@ -25,24 +25,21 @@ public class activity4 {
         
         // Condition 1: Both are positive (using && operator)
         boolean bothPositive = (number1 > 0) && (number2 > 0);
-        System.out.println("Both are positive (&&): " + bothPositive);
-        System.out.println("  → " + number1 + " > 0 AND " + number2 + " > 0 = " + bothPositive);
+        System.out.println("Both are positive : " + bothPositive);
         
         // Condition 2: At least one is greater than 100 (using || operator)
         boolean atLeastOneGreater100 = (number1 > 100) || (number2 > 100);
-        System.out.println("\nAt least one is greater than 100 (||): " + atLeastOneGreater100);
-        System.out.println("  → " + number1 + " > 100 OR " + number2 + " > 100 = " + atLeastOneGreater100);
+        System.out.println("\nAt least one is greater than 100: " + atLeastOneGreater100);
         
         // Condition 3: The first is not equal to the second (using ! operator)
         boolean notEqual = !(number1 == number2);
-        System.out.println("\nThe first is not equal to the second (!): " + notEqual);
-        System.out.println("  → NOT(" + number1 + " == " + number2 + ") = " + notEqual);
+        System.out.println("\nThe first is not equal to the second: " + notEqual);
         
         System.out.println("\n==========================================");
         System.out.println("Summary:");
-        System.out.println("&& (AND): " + bothPositive);
-        System.out.println("|| (OR): " + atLeastOneGreater100);
-        System.out.println("! (NOT): " + notEqual);
+        System.out.println("Both are positive: " + bothPositive);
+        System.out.println("At least one is greater than 100: " + atLeastOneGreater100);
+        System.out.println("The first is not equal to the second: " + notEqual);
         System.out.println("==========================================");
         
         input.close();

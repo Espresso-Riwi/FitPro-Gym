@@ -11,10 +11,10 @@ public class FitproGym {
         Scanner input = new Scanner(System.in);
         
         // Welcome message
-        System.out.println("==============================================");
-        System.out.println("          Welcome to FitPro Gym 🏋️           ");
+        System.out.println("=======================================================");
+        System.out.println("          Welcome to FitPro Gym             ");
         System.out.println("We'll ask a few questions to complete your registration.");
-        System.out.println("==============================================\n");
+        System.out.println("=======================================================\n");
         
         // Collect user information
         System.out.print("Please enter your name: ");
@@ -23,7 +23,7 @@ public class FitproGym {
         System.out.print("Please enter your age: ");
         int age = input.nextInt();
         
-        System.out.print("Enter your height in meters (e.g., 1.72): ");
+        System.out.print("Enter your height in meters (e.g., 1,72): ");
         double height = input.nextDouble();
         
         System.out.print("Enter your weight in kilograms (e.g., 72): ");
@@ -132,7 +132,7 @@ public class FitproGym {
         System.out.println("Final Monthly Price: $" + String.format("%.2f", finalPrice));
         System.out.println("BMI Category: " + bmiCategory);
         System.out.println("==============================================");
-        System.out.println("Welcome to FitPro Gym! 💪");
+        System.out.println("Welcome to FitPro Gym!  ");
         System.out.println("==============================================");
     }
 }

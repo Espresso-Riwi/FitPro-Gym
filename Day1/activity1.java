@@ -8,7 +8,7 @@ public class activity1 {
 
     public static void main(String[] args) {
 
-        // Declare variables with your personal data
+        // I will declare variables with my personal data
         String name = "Samuel";
         int age = 21;
         double height = 1.72;

@@ -8,11 +8,11 @@ public class activity2 {
 
     public static void main(String[] args) {
 
-        // Declare two integer numbers
+        // I will declare two integer numbers
         int a = 15;
         int b = 4;
 
-        // Display the numbers we're working with
+        // I will display the numbers we're working with
         System.out.println("Working with numbers: a = " + a + " and b = " + b);
         System.out.println("==========================================");
 
@@ -34,15 +34,15 @@ public class activity2 {
         int division = a / b;
         System.out.println("Division: " + a + " / " + b + " = " + division);
 
-        // Modulo (remainder)
-        int modulo = a % b;
-        System.out.println("Modulo: " + a + " % " + b + " = " + modulo);
+        // Module (remainder)
+        int module = a % b;
+        System.out.println("Module: " + a + " % " + b + " = " + module);
 
         System.out.println("==========================================");
 
         // Additional information about division
         System.out.println("Note: Since we're using integers, division gives us");
-        System.out.println("the quotient without decimals. The remainder is: " + modulo);
+        System.out.println("the quotient without decimals. The remainder is: " + module);
 
         // Show decimal division for comparison
         double decimalDivision = (double) a / b;
