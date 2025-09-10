@@ -104,5 +104,5 @@ public class FitProGym {
         System.out.println("Height: "+p.getHeight());
         System.out.println("Weight: "+p.getWeight());
         System.out.println("First time: "+p.isFirstTime());
-    }
+    }  
 }
